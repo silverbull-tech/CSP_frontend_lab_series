@@ -1,6 +1,6 @@
 # Guided Practice — Lab 1.1 (Intro)
 
-1) Predict the output:
+1) Predict the output: 55
 ```js
 let x = 5;
 let y = "5";
@@ -12,5 +12,5 @@ Explain why that output occurs.
 ```js
 let a = "7";
 let b = "3";
-console.log(a + b);
+console.log(number(a) +  number(b));
 ```

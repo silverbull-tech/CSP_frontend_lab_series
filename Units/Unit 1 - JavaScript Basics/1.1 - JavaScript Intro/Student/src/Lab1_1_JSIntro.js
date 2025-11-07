@@ -5,18 +5,40 @@
 
 // TODO 1: Print your full name with console.log()
 
+console.log("Alberto Diaz");
 
 // TODO 2: Declare variable favoriteFood, assign "Steak", then reassign "Pizza"
 
+let favoriteFood = "steak";
+
+favoriteFood = "pizza";
+console.log(favoriteFood);
 
 // TODO 3: Create variable mystery, assign a string, then a number, print type each time
 
+let mystery = "Hello";
+console.log(typeof mystery);
+
+mystery = 42;
+console.log(typeof mystery);
 
 // TODO 4: Declare const schoolName, try to reassign
 
+const schoolName = "christopher columbus high school";
+
+schoolName = "new hight school";
+
+console.log(schoolName);
 
 // TODO 5: Create three valid camelCase variables and print them
 
+let firstName = "Alberto";
+let favoriteColor = "Green";
+let numberOfPets = 2;
+
+console.log(firstName);
+console.log(favoriteColor);
+console.log(numberOfPets);
 
 // 🚀 Stretch Goals (optional)
 // - Create a variable age and print "I am X years old" using concatenation
